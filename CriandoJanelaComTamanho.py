@@ -5,7 +5,7 @@ root = tk.Tk()
 root.title("Minha Aplicação GUI")
 
 # Define o tamanho da janela como 400x300 pixels
-root.geometry("400x300")
+root.geometry("400x300+50+100")
 
 # Adiciona um widget de rótulo
 label = tk.Label(root, text="Olá, Mundo!")
