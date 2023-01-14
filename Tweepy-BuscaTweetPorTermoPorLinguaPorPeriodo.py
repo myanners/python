@@ -38,4 +38,8 @@ dados = resposta.data
 print(dados[0].id)
 print(dados[0].text)
 
+#Printa todos os tweets usando laço
+for i in dados:
+    print(i.id)
+    print(i.text)
 
